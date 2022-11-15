@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-color: black;
+    cursor: pointer; 
+}
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+.logo {
+    width: 240px;
+    margin-top: 2px;
+    padding: 10px 2px;
+    
+    
+}
+.navlinks{
+    list-style: none;
+    margin-bottom: 2px;
+}
+.navlinks li{
+    display: inline-block;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navlinks li a{
+    width: 100px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.navlinks li a:hover{
+    transition: all 0.3s ease 0s;
+    color: maroon;
+}
+button{
+
+    padding: 5px 10px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+} 
+
+
+/*   Body part  */
+.cc{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.banner{
+    width: 100%;
+    margin:  0 auto;
+    position: relative;
+    
+}
+.banner img{
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+.content{
+    color: white;
+   position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    background: none;
+}
+#sts{
+    background: none;
+    font-size: 56px;
+    font-weight: 200;
+    
+}
+
+#sts1{
+    background: none;
+    font-size: 34px; 
+    font-weight: 100;
+  }
+.mar{
+    
+    margin-top: 30px;
+    color:maroon;
+    font-size: 35px;
+    font-weight: 100px;
+    font-family: 'Rubik Bubbles', cursive;
+   
+}
+
+.container{
+    margin-top: 40px;
+    
+}
+ 
+.toto{
+    list-style: none;
+}
+  .toto li{
+    display: inline-block;
+    padding: 0 25px;
+    
+}
+.toto li a{
+    width: 20px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.toto li a:hover{
+    transition: all 0.3s ease 0s;
+    color: maroon;
+}
+.wes{
+    
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.yes{
+    
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
